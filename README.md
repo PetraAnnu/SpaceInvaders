@@ -1,0 +1,4 @@
+# Space Invaders
+how to set up the game in eclipse:
+
+You can download my repository to your file system. Then in eclipse you can click on File, then Open Projects from File System and find my downloaded repository. After you have it in your Workspace (you can see it in the Package Explorer) you need to set it up with the right java. You right-click the project and then click on Properties (all the way down) and click on Java Build Path. In the Libraries section you need to Add Library and click through it while selecting an older java version. Instead of, for exaplme java 11, you will need java 1.8 where applets are still included. Then check Order and Export and click on your new library to make sure it really is in there and is being used. After that you can simply right click anywhere in the program point your cursor on Run As and click on Java Applet.
